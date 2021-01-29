@@ -15,7 +15,7 @@ public class Student implements StudentFee {
 	public void getFees() {
 		// TODO Auto-generated method stub
 		try {
-			System.out.println("reached here");
+			System.out.println("reached out here");
 			if(salary<0)
 				throw new InvalidFeesException();
 			
